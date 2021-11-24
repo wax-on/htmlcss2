@@ -49,6 +49,7 @@ article ul li {
 }
 
 article li {
+  padding: 5px;
   margin: 5px;
   text-transform: capitalize;
   font-family: sans-serif;
