@@ -207,6 +207,10 @@ input[type="submit"]:hover {
   padding-bottom: 40px;
 }
 
+#thanks {
+  padding-bottom: 210px;
+}
+
 .container h2 {
   margin-top: 60px;
   text-align: center;
@@ -232,6 +236,15 @@ input[type="submit"]:hover {
   font-size: 5rem;
   width: 100%;
   max-height: 1000px;
+}
+
+.column h3 {
+  margin: auto;
+  max-width: 300px;
+}
+
+.max-down {
+  padding-bottom: 0px;
 }
 
 .grid-container {
