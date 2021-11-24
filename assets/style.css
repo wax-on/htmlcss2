@@ -8,7 +8,7 @@
 body {
   overflow-x: hidden;
   background-color: #fbfaf1;
-  width: 100%;
+  width: 100vw;
 }
 
 h1,
@@ -32,6 +32,7 @@ nav {
   min-height: 9.2vh;
   background-color: #a7c262;
   font-family: "poppins", sans-serif;
+  z-index: 1001;
 }
 
 article {
@@ -207,7 +208,7 @@ input[type="submit"]:hover {
 }
 
 .container h2 {
-  margin-top: 40px;
+  margin-top: 60px;
   text-align: center;
 }
 .container p {
@@ -350,11 +351,16 @@ footer p a {
   body {
     overflow-x: hidden;
   }
+  nav {
+    position: fixed;
+
+    width: 100%;
+  }
   .grid-container .image-half:nth-of-type(1) {
     order: 2;
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     right: 0px;
     height: 92vh;
     top: 9vh;
