@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baseló</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="/">
+          <p>Baseló</p>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/">Start</a></li>
+        <li><a href="/menu.html">Meny</a></li>
+        <li><a href="/kontakt.html">Kontakt</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div>
+        <h2>Kontakta oss</h2>
+        <p><a href="tel:+4207378901">+42 073 78 901</a></p>
+      </div>
+      <div class="row">
+        <div class="ani"></div>
+        <div class="column">
+          <h2>BASELÒ</h2>
+        </div>
+        <div class="column">
+          <form>
+            <label for="fname">Förnamn</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Förnamn.."
+            />
+            <label for="lname">Efternamn</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Efternamn.."
+            />
+            <label for="country">Land</label>
+            <select id="country" name="country">
+              <option value="australia">Sverige</option>
+              <option value="canada">Danmark</option>
+              <option value="usa">Tyskland</option>
+            </select>
+            <label for="subject">Ämne</label>
+            <textarea
+              class="textarea-sub"
+              id="subject"
+              name="subject"
+              placeholder="Din fråga.."
+            ></textarea>
+            <input type="submit" value="Skicka" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p><a href="./kontakt.html">Kontakt oss</a></p>
+      <p><a href="./menu.html">Menu</a></p>
+      <div class="footer-text">© Baseló 2021</div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
