@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 body {
+  overflow-x: hidden;
   background-color: #fbfaf1;
+  width: 100%;
 }
 
 h1,
