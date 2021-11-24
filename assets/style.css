@@ -107,7 +107,7 @@ article li {
 .parallax {
   background-image: url("./images/hero.jpg");
   height: 500px;
-  background-attachment: fixed;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -405,6 +405,13 @@ footer p a {
 
   .grid-container {
     grid-template-columns: 1fr;
+  }
+  .om-oss {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  .om-oss h3 {
+    padding-top: 25px;
   }
 
   .om-oss p {
